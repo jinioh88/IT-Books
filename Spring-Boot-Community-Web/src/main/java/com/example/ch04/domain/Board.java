@@ -41,7 +41,6 @@ public class Board {
     private User user;
 
     @Builder
-
     public Board(String title, String subTitle, String content, BoardType boardType, LocalDateTime createdDate,
                                                                                 LocalDateTime updatedDate, User user) {
         this.title = title;
